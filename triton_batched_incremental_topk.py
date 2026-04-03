@@ -237,3 +237,5 @@ if __name__ == '__main__' :
             assert is_no_duplicates_on_last_dim(selected    [i_b1, i_b2, :M]), 'duplicates_on_last_dim(new_sel)'
             assert is_no_duplicates_on_last_dim(inc_selected[i_b1, i_b2, :K]), 'duplicates_on_last_dim(inc_sel)'
         all_K += K
+
+    
